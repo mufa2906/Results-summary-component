@@ -159,12 +159,21 @@ main{
   background-color: hsl(224, 30%, 27%);
   justify-content: center;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+.button button {
+  cursor: pointer;
+}
+
+.button:active {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .button button {
   background-color: transparent;
   border: none;
-  color:hsl(0, 0%, 100%) ;
+  color:hsl(  0, 0%, 100%) ;
 }
 
 @media screen and (max-width: 575px) {
